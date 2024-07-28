@@ -1,0 +1,48 @@
+body {
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  background-image: url("./images/background.jpg");
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 2rem 0px 0px;
+}
+
+.message {
+  text-align: left;
+  margin: auto;
+  transition: 0.6s;
+  padding: 4.2rem;
+  border-radius: 0px 0px 24px 0px;
+}
+
+.message:hover {
+  background-color: wheat;
+}
+
+iframe {
+  border-radius: 24px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer a {
+  color: rgb(255, 242, 0);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.6s ease 0s;
+}
+
+footer a:hover {
+  font-size: 1.8rem;
+  color: pink;
+}
